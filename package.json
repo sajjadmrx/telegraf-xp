@@ -1,17 +1,39 @@
 {
-  "name": "telegraf-xp",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@sajjadmrx/telegraf-xp",
+  "version": "1.1.0",
+  "description": "A lightweight and easy to use economy framework for telegraf bots, uses MongoDB.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
-    "telegraf-leveling"
+    "telegram",
+    "economy",
+    "telegraf",
+    "bot",
+    "bots",
+    "leveling",
+    "levels",
+    "telegram-levels",
+    "telegraf-xp",
+    "xp",
+    "mongo",
+    "mongoose",
+    "mongodb",
+    "framework"
   ],
   "author": "sajjadmrx",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^5.12.5"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjadmrx/telegraf-xp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sajjadmrx/telegraf-xp/issues"
+  },
+  "homepage": "https://github.com/sajjadmrx/telegraf-xp#readme"
 }
