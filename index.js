@@ -279,13 +279,14 @@ class TelegramXp {
                 });
             }
         } else {
+            const first_name = await api.getChat(key.userID).first_name || "Unknown"
             leaderboard.map(key => computedArray.push({
                 chatID: key.chatID,
                 userID: key.userID,
                 xp: key.xp,
                 level: key.level,
                 position: (leaderboard.findIndex(i => i.chatID === key.chatID && i.userID === key.userID) + 1),
-                first_name: await api.getChat(key.userID) ? await api.getChat(key.userID).first_name : "Unknown",
+                first_name: first_name
             }));
         }
 
